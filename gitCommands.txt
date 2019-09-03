@@ -1,0 +1,25 @@
+git clone
+// Добавили текстовый файл
+git add
+git commit
+git push origin master
+git checkout -b dev
+git push origin dev
+git checkout –b firstBranch
+// Изменили текстовый файл
+git add
+git commit
+git push origin firstBranch
+git checkout dev
+git checkout –b secondBranch
+// Изменили текстовый файл
+git add
+git commit
+git push origin secondBranch
+git checkout dev
+git merge firstBranch
+git push origin dev
+git merge secondBranch
+// Solved merge conflict with GitKraken :)
+git push origin dev
+
